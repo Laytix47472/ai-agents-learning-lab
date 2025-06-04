@@ -48,3 +48,4 @@ agents/openai_autonomous/react_agent_reasoning.py
 - Análise + execução combinada
 
 ---
+---
