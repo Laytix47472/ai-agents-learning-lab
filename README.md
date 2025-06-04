@@ -124,9 +124,12 @@ O diagrama abaixo mostra como os três principais paradigmas de aprendizado alim
 
 ---
 
-## 📄 Licença · License
+---
 
-Distribuído sob Licença MIT. Consulte [`LICENSE`](./LICENSE) para mais informações.  
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for details.
+## 📄 Licença
+
+Este projeto é distribuído sob a [Licença MIT Bilíngue](./LICENSE), com autoria declarada por **Emerson Maciel** ([@Emersoft76](https://github.com/Emersoft76)), profissional graduado em Gestão de Redes (UNIP – Brasília/DF) e atuante em soluções modernas de Redes, Sistemas e Computação em Nuvem.
+
+This repository is licensed under the [Bilingual MIT License](./LICENSE), authored by **Emerson Maciel**, network and cloud infrastructure professional, and creator of this open-source educational lab.
 
 ---
