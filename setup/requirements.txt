@@ -1,0 +1,17 @@
+openai>=1.0.0
+langchain>=0.1.0
+transformers>=4.36.0
+tiktoken
+scikit-learn
+torch
+datasets
+pandas
+numpy
+matplotlib
+gym
+ray[rllib]
+jupyter
+notebook
+faiss-cpu
+chromadb
+python-dotenv
