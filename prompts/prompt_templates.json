@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Trip Planner",
+    "language": "pt",
+    "description": "Cria um roteiro de viagem personalizado",
+    "prompt": "Você é um planejador de viagens. Elabore um roteiro de 3 dias para conhecer Florianópolis com orçamento limitado."
+  },
+  {
+    "name": "Research Paper Finder",
+    "language": "en",
+    "description": "Uses web tools to search for academic papers",
+    "prompt": "Use your search tools to find recent papers about neural radiance fields (NeRFs)."
+  },
+  {
+    "name": "Data Analyzer",
+    "language": "en",
+    "description": "Analyze and interpret dataset content",
+    "prompt": "Explain what this table represents and identify trends."
+  }
+]
