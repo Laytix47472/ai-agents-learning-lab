@@ -26,7 +26,7 @@ Caso não tenha, instale do site oficial com a opção “Add Python to PATH” 
 
 ### 2. Clonar o repositório
 ```powershell
-git clone https://github.com/seu-usuario/ai-agents-learning-lab.git
+git clone https://github.com/Emersoft76/ai-agents-learning-lab.git
 cd ai-agents-learning-lab
 ```
 ---
