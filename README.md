@@ -97,10 +97,13 @@ Inclui:
 
 ---
 
-## 📊 Diagramas e Fluxos · Diagrams & Flows
+## 📊 Diagramas e Fluxo
 
-- [`agent_training_flow.drawio`](./diagrams/agent_training_flow.drawio)
-- Fluxo de aprendizagem, decisão e ação entre modelos e agentes
+### 🔁 Fluxo de Treinamento de Agentes de IA
+
+O diagrama abaixo mostra como os três principais paradigmas de aprendizado alimentam um modelo base, que se torna a fundação para agentes capazes de planejar, agir e interagir com ferramentas, objetivos, memória e ambiente.
+
+![Fluxo de Treinamento de Agentes](./diagrams/agent_training_flow.png)
 
 ---
 
