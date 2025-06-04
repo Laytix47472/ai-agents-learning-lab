@@ -36,7 +36,7 @@ source venv/bin/activate
 
 ### 4. Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/ai-agents-learning-lab.git
+git clone https://github.com/Emersoft76/ai-agents-learning-lab.git
 cd ai-agents-learning-lab
 ```
 ---
