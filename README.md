@@ -18,6 +18,13 @@
 
 ---
 
+> ⭐ **Curtiu o projeto? Deixe uma estrela para apoiar!**  
+> If you find this project useful, please give it a ⭐ star to support the work.
+
+[![Stars](https://img.shields.io/github/stars/Emersoft76/ai-agents-learning-lab?style=social)](https://github.com/Emersoft76/nome-do-repositorio/stargazers)
+
+---
+
 ## 📚 Índice · Table of Contents
 
 1. [📁 Estrutura do Repositório · Repo Structure](#-estrutura-do-repositório--repo-structure)
